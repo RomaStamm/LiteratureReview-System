@@ -1,0 +1,20 @@
+{
+  "name": "literature-review-system",
+  "version": "1.0.0",
+  "description": "Confidential literature awards evaluation system using FHE",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js --network sepolia",
+    "test": "npx hardhat test"
+  },
+  "dependencies": {
+    "@fhevm/solidity": "^0.5.0",
+    "hardhat": "^2.19.0",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "ethers": "^6.9.0"
+  },
+  "keywords": ["fhe", "literature", "privacy", "awards", "blockchain"],
+  "author": "",
+  "license": "MIT"
+}
